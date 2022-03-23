@@ -1,9 +1,9 @@
 package models
 
-type Item struct {
-	Id    int    `json:"id"`
-	Name  string `json:"name"`
-	Price int    `json:"price"`
+type User struct {
+	Id       int    `json:"id"`
+	Name     string `json:"name"`
+	Password int    `json:"password"`
 }
 
 type MessageResp struct {
