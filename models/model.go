@@ -3,7 +3,8 @@ package models
 type User struct {
 	Id       int    `json:"id"`
 	Name     string `json:"name"`
-	Password int    `json:"password"`
+	Password string `json:"password"`
+	UserType int    `json:"user_type"`
 }
 
 type MessageResp struct {
